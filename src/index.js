@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-import data from './data.js';
 import Place from './Place.js'
-
+import './style.css'
 
 
 ReactDOM.render(
-  <Place />,
+  <>
+  <header className="header">my travel journal.</header>
+  <Place />
+  </>,
   document.getElementById("root")
   
 )
